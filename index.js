@@ -13,5 +13,7 @@ import Flexbox from './Flexbox';
 import RestAPI from './RestAPI';
 import {name as appName} from './app.json';
 import Exercise7 from './Exercise7';
+import SignIn from './src/SignIn';
+import SignUp from './src/SignUp';
 
-AppRegistry.registerComponent(appName, () => Exercise7);
+AppRegistry.registerComponent(appName, () => SignUp);
